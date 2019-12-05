@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dealers-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #dealers-table td, #dealers-table th {
+    border: 1px solid rgb(100, 95, 95);
+    padding: 8px;
+  }
+  
+  #dealers-table tr:nth-child(even){background-color: #2bff00;}
+  
+  #dealers-table tr:hover {background-color: rgb(100, 95, 95);}
+  
+  #dealers-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.uvod {
+    margin: 15px;
+    margin-right: auto; 
+    color: rgb(65, 32, 32);  
+    border: 5px solid blue; 
+    padding: 20px;
+    font-size: 30px;
+    
+
+}
+.svk{
+    width:35px;
+    margin: 0px; 
+    color: rgb(0, 4, 255);  
+    border: 3px solid darkred; 
+    border-right: none;
+    padding: 10px;
+    font-size: 15px; 
+        
+}
+.eng{
+    width:35px;
+    margin: 0px; 
+    margin-right: 15px;
+    color: rgb(0, 4, 255);  
+    border: 3px solid darkred; 
+    padding: 10px;
+    font-size: 15px;   
+}
+
+.menu-item{
+    color: rgb(65, 32, 32);  
+    border: 3px solid blue; 
+    border-right: none;
+    padding: 10px;
+    font-size: 20px; 
+    flex:1; 
+    text-align: center; 
+}
+
+#test {
+    color:orange;
+}
+
+.margin{
+    margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    height: 20px;
+ }
+
+ .gif-wrap {
+     display: flex;
+ }
+ .gif-img {
+     margin-left:auto;
+     margin-right: auto;
+ }
+ .obrazok1{
+     display: flex;
+     justify-content: flex-end;
+ }
+ .row {
+    display: flex;
+
+
